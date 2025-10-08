@@ -1,0 +1,2 @@
+its just theortical concept
+watch lecture 13. Analyzing Dependency Injection with the Angular DevTools
