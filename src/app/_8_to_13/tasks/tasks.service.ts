@@ -35,7 +35,7 @@
 import { Injectable, signal } from '@angular/core';
 import { Task, TaskStatus } from './task.model';
 
-//========= root Inject  ==========
+//========= 1. root Inject  ==========
 // if i remove this will give error and go to
 // ERROR NullInjectorError: R3InjectorError(Standalone[_AppComponent])[TasksService -> TasksService -> TasksService]: 
 
