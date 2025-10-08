@@ -30,6 +30,11 @@ import { TasksService } from './tasks.service';
   templateUrl: './tasks.component.html',
   imports: [NewTaskComponent, TasksListComponent],
   //======== Element Injector =======
+  // this TasksService only injected in   Task and its child components
+  // so this will not work in App Component 
+  // BUG this is drop back of   Element injector
+  // BUG this does not changes Multiple instance of same Component
+  
   providers: [TasksService]
 })
 export class TasksComponent {}
