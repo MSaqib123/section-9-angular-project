@@ -28,7 +28,7 @@
 
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TasksComponent } from './_8_to_13/tasks/tasks.component';
+import { TasksComponent } from './_1_to_7/tasks/tasks.component';
 
 @Component({
   selector: 'app-root',
